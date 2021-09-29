@@ -1848,7 +1848,7 @@ class checklist_class {
 
         if (isset($this->items[$itemid])) {
             if ($this->canedit()) {
-                $this->validate_links($linkcourseid, $linkurl, $grouping);
+                $this->validate_links($linkcourseid, $linkurl, $groupingid);
 
                 $item = $this->items[$itemid];
                 $oldlinkcourseid = $item->linkcourseid;
